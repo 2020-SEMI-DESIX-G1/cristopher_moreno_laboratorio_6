@@ -1,0 +1,23 @@
+{
+  "name": "cristopher_moreno_laboratorio_6",
+  "version": "1.0.0",
+  "description": "Laboratorio #6 - Creación de endpoints en Javascript",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020-SEMI-DESIX-G1/cristopher_moreno_laboratorio_6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2020-SEMI-DESIX-G1/cristopher_moreno_laboratorio_6/issues"
+  },
+  "homepage": "https://github.com/2020-SEMI-DESIX-G1/cristopher_moreno_laboratorio_6#readme"
+}
