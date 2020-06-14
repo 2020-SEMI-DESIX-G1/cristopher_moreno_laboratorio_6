@@ -5,8 +5,7 @@ const estController = require('./../controllers/estController');
 //TLC: top level code
 const router = express.Router();
 
-//HTTP METHODS
-
+//HTTP METHODS: GET/POST/PUT_PATCH/DELETE
 router
   .route('/')
   .get(estController.getAllEstudiantes)
