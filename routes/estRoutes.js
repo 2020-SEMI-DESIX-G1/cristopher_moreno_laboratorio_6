@@ -10,5 +10,12 @@ const router = express.Router();
 router
   .route('/')
   .get(estController.getAllEstudiantes)
+  .post(estController.createEstudiantes)
+
+router
+  .route('/:id')
+  .get(estController.getEstudiante)
+  .put(estController.updateEstudiante)
+  .delete(estController.deleteEstudiante);
 
 module.exports = router;
