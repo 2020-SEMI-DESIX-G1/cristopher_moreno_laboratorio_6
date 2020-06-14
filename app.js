@@ -2,7 +2,7 @@
 const express = require('express')
 const estudiantes = require('./routes/estRoutes');
 
-//TCL
+//TLC: top level code
 const app = express();
 
 //ROUTES
