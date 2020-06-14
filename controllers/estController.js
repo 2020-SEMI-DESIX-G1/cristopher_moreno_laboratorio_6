@@ -1,9 +1,9 @@
 //MODULES
 
-//TLC
+//TLC: top level code
 let estudiantes = ['cristopher', 'maría']
 
-//HTTP-METHODS: CRUD
+//HTTP METHODS EXPORTED: FOR CRUD OPEATIONS
 exports.getAllEstudiantes = (req, res) => {
     const output = JSON.parse(JSON.stringify(estudiantes))
     console.log(`Listado de estudiantes:`)
